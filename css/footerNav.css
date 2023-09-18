@@ -1,0 +1,76 @@
+section#footerNav {
+  
+}
+section#footerNav div.wrap {
+  
+  position: relative;
+  padding: 25px 0;
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap {
+  
+  display: flex;
+  line-height: 2;
+  justify-content: space-between;
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 {
+  
+  width: 17.5%;
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 a.fnb-dep1-link {
+  
+  font-size: 18px;
+  font-weight: 700;
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 ul.fnb-dep2-wrap {
+  
+  display: none;
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 ul.fnb-dep2-wrap li.fnb-dep2 {
+  
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 ul.fnb-dep2-wrap li.fnb-dep2 a.fnb-dep2-link {
+  
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 ul.fnb-dep2-wrap li.fnb-dep2 ul.fnb-dep3-wrap {
+  
+  display: none;
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 ul.fnb-dep2-wrap li.fnb-dep2 ul.fnb-dep3-wrap li.fnb-dep3 {
+  
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 ul.fnb-dep2-wrap li.fnb-dep2 ul.fnb-dep3-wrap li.fnb-dep3 a.fnb-dep3-link {
+  
+  padding-left: 15px;
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 ul.fnb-dep2-wrap li.fnb-dep2 ul.fnb-dep3-wrap li.fnb-dep3 ul.fnb-dep4-wrap {
+  
+  display: none;
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 ul.fnb-dep2-wrap li.fnb-dep2 ul.fnb-dep3-wrap li.fnb-dep3 ul.fnb-dep4-wrap li.fnb-dep4 {
+  
+}
+section#footerNav div.wrap ul.fnb-dep1-wrap li.fnb-dep1 ul.fnb-dep2-wrap li.fnb-dep2 ul.fnb-dep3-wrap li.fnb-dep3 ul.fnb-dep4-wrap li.fnb-dep4 a.fnb-dep4-link {
+  
+  padding-left: 25px;
+}
+section#footerNav div.wrap button.fnb-toggle {
+  
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 0;
+  top: 30.5px;
+  border: 1px solid;
+  background-color: transparent;
+  cursor: pointer;
+  background-position: center;
+  background-image: url(../img/icon/down.svg);
+}
+
+.fnb-toggle-on {
+  background-image: url(../img/icon/up.svg) !important;
+}
+
+.fnb-more-on {
+  background-image: url(../img/icon/remove.svg) !important;
+}

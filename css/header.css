@@ -1,0 +1,222 @@
+header {
+  
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  z-index: 1500;
+  border-bottom: 1px solid gray;
+}
+header div.wrap {
+  
+}
+header div.wrap div.header-top {
+  
+  padding: 10px 0;
+}
+header div.wrap div.header-top div.header-util {
+  
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+header div.wrap div.header-top div.header-util button.search {
+  
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+header div.wrap div.header-top div.header-util button.search svg {
+  
+}
+header div.wrap div.header-top div.header-util div.user {
+  
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+header div.wrap div.header-top div.header-util div.user a.sign-in {
+  
+  padding: 5px;
+}
+header div.wrap div.header-top div.header-util div.user div.line {
+  
+  height: 8px;
+  width: 1px;
+  background-color: gray;
+}
+header div.wrap div.header-top div.header-util div.user a.sign-up {
+  
+  padding: 5px;
+}
+header div.wrap div.header-btm {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div.wrap div.header-btm h1 {
+  
+}
+header div.wrap div.header-btm h1 a {
+  
+  display: block;
+}
+header div.wrap div.header-btm h1 a svg {
+  
+  width: 115px;
+  height: 44px;
+}
+header div.wrap div.header-btm nav.gnb-left {
+  
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap {
+  
+  display: flex;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 {
+  
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 a.gnb-dep1-link {
+  
+  display: block;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 5px solid transparent;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 a.gnb-dep1-link:hover {
+  border-bottom: 5px solid red;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner {
+  
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 625px;
+  background-color: white;
+  display: none;
+  top: 109px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap {
+
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap {
+  
+  position: absolute;
+  width: 200px;
+  left: 0;
+  top: 15px;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 {
+  
+  display: flex;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 a.gnb-dep2-link {
+  
+  display: block;
+  padding: 15px 0;
+  font-weight: 500;
+  width: 100%;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 a.gnb-dep2-link:hover {
+  text-decoration: underline 2px;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 ul.gnb-dep3-wrap {
+  
+  position: absolute;
+  width: 200px;
+  left: 200px;
+  top: 0;
+  display: none;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 ul.gnb-dep3-wrap li.gnb-dep3 {
+  
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 ul.gnb-dep3-wrap li.gnb-dep3 a.gnb-dep3-link {
+  
+  display: block;
+  padding: 15px 0;
+  font-weight: 500;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 ul.gnb-dep3-wrap li.gnb-dep3 a.gnb-dep3-link:hover {
+  text-decoration: underline 2px;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 ul.gnb-dep3-wrap li.gnb-dep3 ul.gnb-dep4-wrap {
+  
+  position: absolute;
+  left: 200px;
+  width: 200px;
+  top: 0;
+  display: none;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 ul.gnb-dep3-wrap li.gnb-dep3 ul.gnb-dep4-wrap li.gnb-dep4 {
+  
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 ul.gnb-dep3-wrap li.gnb-dep3 ul.gnb-dep4-wrap li.gnb-dep4 a.gnb-dep4-link {
+  
+  display: block;
+  padding: 15px 0;
+  font-weight: 500;
+}
+header div.wrap div.header-btm nav.gnb-left ul.gnb-dep1-wrap li.gnb-dep1 div.gnb-inner div.gnb-inner-wrap ul.gnb-dep2-wrap li.gnb-dep2 ul.gnb-dep3-wrap li.gnb-dep3 ul.gnb-dep4-wrap li.gnb-dep4 a.gnb-dep4-link:hover {
+  text-decoration: underline 2px;
+}
+header div.wrap div.header-btm div.gnb-right {
+  
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 75px;
+}
+header div.wrap div.header-btm div.gnb-right ul.gnb-dep1-wrap {
+  
+  display: flex;
+  gap: 15px;
+}
+header div.wrap div.header-btm div.gnb-right ul.gnb-dep1-wrap li.gnb-dep1 {
+  
+}
+header div.wrap div.header-btm div.gnb-right ul.gnb-dep1-wrap li.gnb-dep1 a.gnb-dep1-link {
+  
+  display: flex;
+  padding: 20px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+}
+header div.wrap div.header-btm div.gnb-right div.box-wrap {
+  
+  display: flex;
+  gap: 10px;
+}
+header div.wrap div.header-btm div.gnb-right div.box-wrap a.download {
+  
+  font-size: 14px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+header div.wrap div.header-btm div.gnb-right div.box-wrap a.regist {
+  
+  font-size: 14px;
+  font-weight: 700;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+}

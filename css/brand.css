@@ -1,0 +1,53 @@
+section#notice div.brandwrap {
+    display: flex;
+    justify-content: space-between;
+  }
+section#notice div.brandwrap a.brand-title {
+  
+  width: 200px;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+section#notice div.brandwrap a.brand-title h2 {
+  
+  font-size: 30px;
+  font-weight: 700;
+}
+section#notice div.brandwrap a.brand-title svg {
+  
+  width: 25%;
+}
+section#notice div.brandwrap ul.brand-cont {
+  
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+section#notice div.brandwrap ul.brand-cont li {
+  
+}
+section#notice div.brandwrap ul.brand-cont li a.brand-link {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 2;
+}
+section#notice div.brandwrap ul.brand-cont li a.brand-link h3 {
+  
+  font-size: 18px;
+  font-weight: 500;
+}
+section#notice div.brandwrap ul.brand-cont li a.brand-link p.info {
+  
+  width: 85%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+section#notice div.brandwrap ul.brand-cont li a.brand-link p.date {
+  
+}

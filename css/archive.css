@@ -1,0 +1,65 @@
+section#archive {
+  
+}
+section#archive div.wrap {
+  
+  display: flex;
+  flex-direction: column;
+}
+section#archive div.wrap .archive-cont {
+  
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+section#archive div.wrap div.archive-cont {
+  border: none;
+}
+section#archive div.wrap .archive-cont h3 {
+  
+  font-size: 30px;
+  font-weight: 700;
+  width: 200px;
+}
+section#archive div.wrap .archive-cont div.archive-text {
+  
+  display: flex;
+  flex-direction: column;
+}
+section#archive div.wrap .archive-cont div.archive-text p {
+  
+  width: 575px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+section#archive div.wrap .archive-cont div.archive-text a.archive-link {
+  
+  display: flex;
+  align-items: center;
+}
+section#archive div.wrap .archive-cont div.archive-text div.archive-link-wrap {
+  
+  display: flex;
+  gap: 10px;
+  line-height: 1.5;
+}
+section#archive div.wrap .archive-cont div.archive-text a.archive-link svg {
+  
+  height: 20px;
+}
+section#archive div.wrap .archive-cont .img-wrap {
+  
+  border-radius: 25px;
+  overflow: hidden;
+}
+section#archive div.wrap .archive-cont .img-wrap img {
+  
+  scale: 1;
+  transition: 0.5s;
+}
+section#archive div.wrap .archive-cont .img-wrap img:hover {
+  scale: 1.1;
+}

@@ -1,0 +1,78 @@
+section#footer-info {
+  
+}
+section#footer-info div.wrap {
+  
+  line-height: 1.5;
+  color: gray;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section#footer-info div.wrap span.line {
+  
+  width: 1px;
+  height: 8px;
+  background-color: gray;
+}
+section#footer-info div.wrap div.policy {
+  
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+section#footer-info div.wrap div.policy a {
+  
+  color: gray;
+}
+section#footer-info div.wrap div.policy a:nth-of-type(2) {
+  color: black;
+  font-weight: 700;
+}
+section#footer-info div.wrap div.office {
+  
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+section#footer-info div.wrap div.office p {
+  
+}
+section#footer-info div.wrap div.office p:nth-of-type(1) {
+  margin-right: 10px;
+}
+section#footer-info div.wrap div.address {
+  
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+section#footer-info div.wrap div.address p {
+  
+}
+section#footer-info div.wrap p.copyright {
+  
+  margin-bottom: 25px;
+}
+section#footer-info div.wrap ul.footer-sites {
+  
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+section#footer-info div.wrap ul.footer-sites li {
+  
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+section#footer-info div.wrap ul.footer-sites li img {
+  
+}
+section#footer-info div.wrap ul.footer-sites li p {
+  
+}

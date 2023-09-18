@@ -1,0 +1,61 @@
+section#notice {
+  
+}
+section#notice div.noticewrap {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+section#notice div.wrap {
+  
+  
+}
+section#notice div.wrap a.notice-title {
+  
+  width: 200px;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+section#notice div.wrap a.notice-title h2 {
+  
+  font-size: 30px;
+  font-weight: 700;
+}
+section#notice div.wrap a.notice-title svg {
+  
+  width: 25%;
+}
+section#notice div.wrap ul.notice-cont {
+  
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+section#notice div.wrap ul.notice-cont li {
+  
+}
+section#notice div.wrap ul.notice-cont li a.notice-link {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 2;
+}
+section#notice div.wrap ul.notice-cont li a.notice-link h3 {
+  
+  font-size: 18px;
+  font-weight: 500;
+}
+section#notice div.wrap ul.notice-cont li a.notice-link p.info {
+  
+  width: 85%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+section#notice div.wrap ul.notice-cont li a.notice-link p.date {
+  
+}

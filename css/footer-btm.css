@@ -1,0 +1,107 @@
+section#footer-btm {
+  
+}
+section#footer-btm div.wrap {
+  
+  display: flex;
+  justify-content: space-between;
+}
+section#footer-btm div.wrap div.footer-sns-wrap {
+  
+  display: flex;
+  gap: 75px;
+}
+section#footer-btm div.wrap div.footer-sns-wrap div.footer-sns-cont {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+section#footer-btm div.wrap div.footer-sns-wrap div.footer-sns-cont h2 {
+  
+  font-size: 14px;
+  font-weight: 500;
+}
+section#footer-btm div.wrap div.footer-sns-wrap div.footer-sns-cont ul.footer-sns-list {
+  
+  display: flex;
+  gap: 5px;
+}
+section#footer-btm div.wrap div.footer-sns-wrap div.footer-sns-cont ul.footer-sns-list li.footer.sns {
+  
+}
+section#footer-btm div.wrap div.footer-sns-wrap div.footer-sns-cont ul.footer-sns-list li.footer.sns a {
+  
+}
+section#footer-btm div.wrap div.footer-sns-wrap div.footer-sns-cont ul.footer-sns-list li.footer.sns a img {
+  
+}
+section#footer-btm div.wrap div.footer-family {
+  
+  display: flex;
+  gap: 25px;
+}
+section#footer-btm div.wrap div.footer-family div.family {
+  
+  position: relative;
+}
+section#footer-btm div.wrap div.footer-family div.family button.family-button {
+  
+  width: 200px;
+  height: 40px;
+  border: 1px solid;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+section#footer-btm div.wrap div.footer-family div.family button.family-button span.family-arrow {
+  
+  height: 18px;
+  width: 18px;
+  background-image: url(../img/icon/up.svg);
+}
+section#footer-btm div.wrap div.footer-family div.family button.family-button span.family-arrow-on {
+  background-image: url(../img/icon/down.svg);
+}
+section#footer-btm div.wrap div.footer-family div.family ul.family-list {
+  
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  border: 1px solid;
+  box-sizing: border-box;
+  z-index: 1;
+  border-radius: 5px;
+  display: none;
+  padding-bottom: 10px;
+}
+section#footer-btm div.wrap div.footer-family div.family:nth-child(1) ul.family-list {
+  top: -90px;
+}
+section#footer-btm div.wrap div.footer-family div.family:nth-child(2) ul.family-list {
+  top: -105px;
+}
+section#footer-btm div.wrap div.footer-family div.family ul.family-list li {
+  
+  padding: 15px;
+}
+section#footer-btm div.wrap div.footer-family div.family ul.family-list li:hover {
+  background-color: red;
+}
+section#footer-btm div.wrap div.footer-family div.family ul.family-list li:hover a {
+  color: white;
+}
+section#footer-btm div.wrap div.footer-family div.family ul.family-list li a.family-link {
+  
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+}

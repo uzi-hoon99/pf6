@@ -1,0 +1,140 @@
+section#newhot {
+  
+}
+section#newhot div.wrap {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+section#newhot div.wrap div.newhot-top {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section#newhot div.wrap div.newhot-top div.newhot-title {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+section#newhot div.wrap div.newhot-top div.newhot-title h2 {
+  
+  display: flex;
+  flex-direction: column;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+section#newhot div.wrap div.newhot-top div.newhot-title h2 span {
+  
+  font-size: 25px;
+  color: red;
+}
+section#newhot div.wrap div.newhot-top div.newhot-title a.viewmore {
+  
+  display: flex;
+  align-items: center;
+  padding: 20px 25px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+  gap: 5px;
+}
+section#newhot div.wrap div.newhot-top div.newhot-title a.viewmore span {
+  
+}
+section#newhot div.wrap div.newhot-top div.newhot-title a.viewmore span svg {
+  
+  width: 25px;
+}
+section#newhot div.wrap div.newhot-top div.newhot-titleimg {
+  
+}
+section#newhot div.wrap div.newhot-top div.newhot-titleimg a.titleimg-link {
+  
+  position: relative;
+  display: block;
+  border-radius: 25px;
+  overflow: hidden;
+}
+section#newhot div.wrap div.newhot-top div.newhot-titleimg a.titleimg-link img {
+  
+  scale: 1;
+  transition: 0.5s;
+}
+section#newhot div.wrap div.newhot-top div.newhot-titleimg a.titleimg-link img:hover {
+  scale: 1.1;
+}
+section#newhot div.wrap div.newhot-top div.newhot-titleimg a.titleimg-link h3 {
+  
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 80px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 15px;
+  line-height: 1.25;
+}
+section#newhot div.wrap div.newhot-top div.newhot-titleimg a.titleimg-link h3 span {
+  
+  font-size: 18px;
+}
+section#newhot div.wrap div.newhot-btm {
+  
+}
+section#newhot div.wrap div.newhot-btm ul.newhot-btm-list {
+  
+  display: flex;
+  justify-content: space-between;
+}
+section#newhot div.wrap div.newhot-btm ul.newhot-btm-list li {
+  
+}
+section#newhot div.wrap div.newhot-btm ul.newhot-btm-list li a.btm-list-link {
+  
+  position: relative;
+  display: block;
+  border-radius: 25px;
+  overflow: hidden;
+}
+section#newhot div.wrap div.newhot-btm ul.newhot-btm-list li a.btm-list-link div.img-wrap {
+  
+}
+section#newhot div.wrap div.newhot-btm ul.newhot-btm-list li a.btm-list-link div.img-wrap img {
+  
+  scale: 1;
+  transition: 0.5s;
+}
+section#newhot div.wrap div.newhot-btm ul.newhot-btm-list li a.btm-list-link div.img-wrap img:hover {
+  scale: 1.1;
+}
+section#newhot div.wrap div.newhot-btm ul.newhot-btm-list li a.btm-list-link p.btm-text {
+  
+  position: absolute;
+  top: 0;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 700;
+  gap: 25px;
+  line-height: 1.25;
+}
+section#newhot div.wrap div.newhot-btm ul.newhot-btm-list li a.btm-list-link p.btm-text span {
+  
+  font-size: 16px;
+  font-weight: 500;
+}

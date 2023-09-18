@@ -1,0 +1,85 @@
+aside {
+  
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+  gap: 25px;
+  z-index: 1000;
+}
+aside div.side-menu-wrap {
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 15px 15px 5px 15px;
+  gap: 15px;
+}
+aside div.side-menu-wrap ul.side-menu-list {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+aside div.side-menu-wrap ul.side-menu-list li.side-menu {
+  
+}
+aside div.side-menu-wrap ul.side-menu-list li.side-menu a.side-menu-link {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+aside div.side-menu-wrap ul.side-menu-list li.side-menu a.side-menu-link svg {
+  
+  width: 40px;
+  height: 40px;
+}
+aside div.side-menu-wrap button.side-menu-close {
+  
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+aside div.side-menu-wrap button.side-menu-close svg {
+  
+}
+aside button.side-menu-open {
+  
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  color: red;
+  background-color: white;
+  border-radius: 100%;
+  display: none;
+  cursor: pointer;
+}
+aside button.side-menu-open svg {
+  
+  scale: 65%;
+}
+aside a.top {
+  
+  width: 50px;
+  height: 50px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 100%;
+}
+aside a.top svg {
+  
+  scale: 55%;
+}
